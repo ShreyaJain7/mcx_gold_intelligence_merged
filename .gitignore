@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+data/raw/
+data/outputs/*
+!data/outputs/.gitkeep
+data/processed/normalized_bhavcopy.parquet
+data/processed/normalized_bhavcopy.csv
